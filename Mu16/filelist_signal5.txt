@@ -1,0 +1,2 @@
+RStreeEDBR_pickup_SM_WWW_LO.root    ; 90.06  ; 50000
+RStreeEDBR_pickup_NLO_5.root    ; 208.6  ; 50000

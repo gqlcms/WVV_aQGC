@@ -1,0 +1,20 @@
+DEBUG 2020-06-28 15:45:50.262 UTC: 	 CRAB Client version: 3.3.2005
+DEBUG 2020-06-28 15:45:50.263 UTC: 	 Running on: Linux lxplus755.cern.ch 3.10.0-1127.8.2.el7.x86_64 #1 SMP Tue May 12 16:57:42 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-06-28 15:45:50.280 UTC: 	 OpenSSl version: OpenSSL 1.0.2k-fips  26 Jan 2017 (Library: OpenSSL 1.0.2d-fips 9 Jul 2015)
+DEBUG 2020-06-28 15:45:50.280 UTC: 	 Executing command: 'status'
+DEBUG 2020-06-28 15:45:50.281 UTC: 	 Found CRAB cache file /afs/cern.ch/user/q/qiguo/.crab3
+ERROR 2020-06-28 15:45:50.282 UTC: 	 Error: ./crab_16_WWW_aQGC_miniAOD_v1_v9 is not a valid CRAB project directory.
+ERROR 2020-06-28 15:45:50.282 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.2005.01/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.2005.01/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.2005.01/lib/CRABClient/Commands/status.py", line 41, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.2005.01/lib/CRABClient/Commands/SubCommand.py", line 278, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.2005.01/lib/CRABClient/Commands/SubCommand.py", line 619, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: ./crab_16_WWW_aQGC_miniAOD_v1_v9 is not a valid CRAB project directory.
+INFO 2020-06-28 15:45:50.286 UTC: 	 Log file is /afs/cern.ch/work/q/qiguo/B2G/work/06/06_28/test/CMSSW_10_2_18/src/ExoDiBosonResonances/EDBRTreeMaker/plugins/crab.log

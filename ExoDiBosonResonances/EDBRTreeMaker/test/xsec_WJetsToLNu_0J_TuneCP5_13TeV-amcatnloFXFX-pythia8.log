@@ -1,0 +1,56 @@
+21-May-2020 13:59:22 CEST  Initiating request to open file root://eosuser.cern.ch//eos/user/q/qiguo/aQGC/WWW_private/WWW_aQGC_miniAOD_v1/crab_WWW_aQGC_miniAOD_v1/200504_084734/0000/SUS-RunIISummer16MiniAODv3-00241_1.root
+21-May-2020 13:59:29 CEST  Successfully opened file root://eosuser.cern.ch//eos/user/q/qiguo/aQGC/WWW_private/WWW_aQGC_miniAOD_v1/crab_WWW_aQGC_miniAOD_v1/200504_084734/0000/SUS-RunIISummer16MiniAODv3-00241_1.root
+Begin processing the 1st record. Run 1, Event 7, LumiSection 1 on stream 0 at 21-May-2020 13:59:30.507 CEST
+21-May-2020 13:59:30 CEST  Closed file root://eosuser.cern.ch//eos/user/q/qiguo/aQGC/WWW_private/WWW_aQGC_miniAOD_v1/crab_WWW_aQGC_miniAOD_v1/200504_084734/0000/SUS-RunIISummer16MiniAODv3-00241_1.root
+21-May-2020 13:59:30 CEST  Initiating request to open file root://eosuser.cern.ch//eos/user/q/qiguo/aQGC/WWW_private/WWW_aQGC_miniAOD_v1/crab_WWW_aQGC_miniAOD_v1/200504_084734/0000/SUS-RunIISummer16MiniAODv3-00241_2.root
+21-May-2020 13:59:32 CEST  Successfully opened file root://eosuser.cern.ch//eos/user/q/qiguo/aQGC/WWW_private/WWW_aQGC_miniAOD_v1/crab_WWW_aQGC_miniAOD_v1/200504_084734/0000/SUS-RunIISummer16MiniAODv3-00241_2.root
+21-May-2020 13:59:34 CEST  Closed file root://eosuser.cern.ch//eos/user/q/qiguo/aQGC/WWW_private/WWW_aQGC_miniAOD_v1/crab_WWW_aQGC_miniAOD_v1/200504_084734/0000/SUS-RunIISummer16MiniAODv3-00241_2.root
+21-May-2020 13:59:34 CEST  Initiating request to open file root://eosuser.cern.ch//eos/user/q/qiguo/aQGC/WWW_private/WWW_aQGC_miniAOD_v1/crab_WWW_aQGC_miniAOD_v1/200504_084734/0000/SUS-RunIISummer16MiniAODv3-00241_3.root
+21-May-2020 13:59:36 CEST  Successfully opened file root://eosuser.cern.ch//eos/user/q/qiguo/aQGC/WWW_private/WWW_aQGC_miniAOD_v1/crab_WWW_aQGC_miniAOD_v1/200504_084734/0000/SUS-RunIISummer16MiniAODv3-00241_3.root
+      0.208569      0.000202      0.237548             0
+ 
+21-May-2020 13:59:37 CEST  Closed file root://eosuser.cern.ch//eos/user/q/qiguo/aQGC/WWW_private/WWW_aQGC_miniAOD_v1/crab_WWW_aQGC_miniAOD_v1/200504_084734/0000/SUS-RunIISummer16MiniAODv3-00241_3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		2.086e-01 +/- 2.024e-04		10000	9380	620	10000	9380	620	2.086e-01 +/- 2.024e-04		100.0 +/- 0.0	100.0 +/- 0.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		2.086e-01 +/- 2.024e-04		10000	9380	620	10000	9380	620	2.086e-01 +/- 2.024e-04		100.0 +/- 0.0	100.0 +/- 0.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 2.086e-01 +- 2.024e-04 pb
+After matching: total cross section = 2.086e-01 +- 2.024e-04 pb
+Matching efficiency = 1.0 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (2080.92) / (2080.92) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (10000) / (10000) = 1.000e+00 +- 0.000e+00    [TO BE USED IN MCM]
+
+After filter: final cross section = 2.086e-01 +- 2.024e-04 pb
+After filter: final fraction of events with negative weights = 6.200e-02 +- 1.495e-04
+After filter: final equivalent lumi for 1M events (1/fb) = 3.679e+03 +- 1.606e+04
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      15       15
+    2 fileAction           -s file_close                             3        3
+    3 fileAction           -s file_open                              6        6
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostProcessEvent PostProcessEvent PostGlobalEndRun
+    3 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                15                  15
+System                  9                   9
+
+dropped waiting message count 0
