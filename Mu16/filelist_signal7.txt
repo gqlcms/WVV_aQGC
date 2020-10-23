@@ -1,2 +1,0 @@
-SM_WWW_LO_2.root    ; 90.06  ; 50000
-RStreeEDBR_pickup_NLO_6.root    ; 208.6  ; 50000

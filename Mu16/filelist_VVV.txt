@@ -1,3 +1,0 @@
-WWZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8.root  ;  165.1  ;  250000
-WZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8.root  ;  55.65  ;  246800
-ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8.root  ;  13.98  ;  249237
